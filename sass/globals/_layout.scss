@@ -1,0 +1,32 @@
+.main-content {
+    width: 300px;
+    background-color: clr(white);
+    padding: 1rem;
+    border-radius: $radius;
+    .img {
+        width: 100%;
+        img {
+            width: 100%;
+            border-radius: $radius;
+        }
+    }
+
+    .info {
+        margin-top: 1rem;
+        text-align: center;
+        .info__heading {
+            font-family: $font;
+            font-size: 1.3rem;
+            color: clr(Dark-blue);
+            padding-bottom: 1rem;
+        }
+    }
+
+    .info__para {
+        color: clr(Grayish-blue);
+        font-family: $font;
+        padding: 0 0.5rem 2rem 0.5rem;
+        font-size: 15px;
+    }
+}
+
